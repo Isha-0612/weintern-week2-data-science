@@ -1,0 +1,3 @@
+stage,rows,columns,missing_cells,columns_with_missing_values,exact_duplicate_rows
+Before cleaning,12185,21,1368,10,120
+After cleaning,11923,21,0,0,0
