@@ -1,0 +1,22 @@
+column,description
+order_id,Transaction identifier; unique after final cleaning
+order_date,Order calendar date
+ship_date,Shipping date
+store_id,Store identifier
+region,Geographic region or unknown
+customer_segment,Customer segment
+product_id,Product identifier
+product_name,"Display product name, whitespace trimmed"
+product_category,Product category
+quantity,"Order quantity; missing values imputed, IQR capped"
+unit_price,"Listed unit price; missing values imputed, IQR capped"
+discount,"Discount fraction, 0 to 1"
+promotion,Promotion label
+sales,Recorded sales amount; outliers retained; synthetic units
+cost_price,Recorded cost price
+shipping_cost,Shipping charge
+profit,"Recorded profit, not a forecasting predictor"
+payment_method,Payment category
+sales_channel,Online/in-store/unknown
+holiday_flag,Holiday indicator
+order_status,"completed, returned, or cancelled"
