@@ -55,6 +55,3 @@ This synthetic dataset is for practice. Negative R² is reported honestly. The w
 One-day-ahead test predictions use observed sales through the preceding day. This is not a multi-day forecast from a single starting date. Missing calendar days are zero-filled as an explicit assumption. Sales outliers are retained. IQR capping of price and quantity can break arithmetic relationships with recorded sales/profit, which are not recomputed. Forecasting uses recorded sales history, not price/quantity-derived targets or profit.
 
 EDA totals across all statuses are recorded transaction amounts, not net accounting revenue. Unknown regions are not ranked as geographic regions. No causal effects are claimed.
-
-## Submission
-Submit the complete folder (or ZIP if accepted) to the assigned Drive folder. The required notebooks, raw/cleaned CSVs, cleaning report, quality comparison, PDF exports, and README are included. The handbook describes real-world data; this project uses synthetic data selected for practice, so confirm that this dataset source is accepted by your instructor. Review the implementation and be ready to explain it in your own words, in keeping with the handbook's original-work requirement.
