@@ -1,0 +1,11 @@
+Model,RMSE
+Training mean,166628.3968567032
+Historical expanding mean,166670.85894193308
+Tuned Ridge,166812.17409361462
+Trailing 56-day mean,167474.79853239766
+Tuned Gradient Boosting,168536.4524582256
+Trailing 28-day mean,169326.39434162108
+Tuned Random Forest,169886.56442861032
+Yesterday,227409.52003777184
+Last week,245302.47669756596
+Linear Regression,1049613.9951390254

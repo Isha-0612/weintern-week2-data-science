@@ -1,0 +1,11 @@
+{
+  "selected_model": "Training mean",
+  "selection_rule": "lowest expanding-window validation RMSE",
+  "test_metrics": {
+    "MAE": 134709.96214982434,
+    "RMSE": 179908.08511630606,
+    "R2": -0.004930443271588425
+  },
+  "test_start": "2025-06-07",
+  "test_end": "2025-12-31"
+}
